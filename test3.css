@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 1. Hide overflow on the wrapper */
+.carousel-outer {
+  overflow: hidden;
+}
+
+/* 2. Track is a wide flex row */
+.carousel-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;      /* grow to fit all items */
+  animation: scroll 18s linear infinite;
+}
+
+/* 3. Pause on hover (optional but nice) */
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+/* 4. Slide exactly the width of the ORIGINAL set.
+   --shift is set by JS after cloning. */
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(var(--shift)); }
+}
+
+/* 5. Reverse direction for second row */
+.carousel-track.reverse {
+  animation-direction: reverse;
+}
+
+/* 6. Edge fade masks */
+.carousel-outer::before,
+.carousel-outer::after {
+  content: '';
+  position: absolute;
+  width: 60px; top: 0; bottom: 0;
+  pointer-events: none; z-index: 2;
+}
+.carousel-outer::before { left: 0;  background: linear-gradient(to right, white, transparent); }
+.carousel-outer::after  { right: 0; background: linear-gradient(to left,  white, transparent); }

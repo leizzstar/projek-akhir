@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(50deg, lightblue,blue,magenta);
+}
+.bksnavbar{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.isi{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.bksisi{
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.tiktok{
+    width: 50%;
+    height: 80vh;
+}
+.intagram{
+     width: 50%;
+    height: 80vh;
+}
+.logo{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.ttlogo{
+    width: 50%;
+    height: 35vh;
+    border-radius: 50%;
+}
+.ttlogo img{
+    width: 100%;
+    height: 35vh;
+    border-radius: 50%;
+}
+.name{
+    width: 100%;
+    height: 5vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.link{
+    width: 100%;
+    height: 7vh;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.name h1{
+    color: azure;
+}
+.ig{
+      width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.iglogo{
+     width: 50%;
+    height: 35vh;
+    border-radius: 50%;
+}
+.iglogo img{
+    width: 100%;
+    height: 35vh;
+    border-radius: 50%;
+}
+.nameig{
+     width: 100%;
+    height: 5vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.linkig{
+      width: 100%;
+    height: 7vh;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} 
+@media (max-width:500px) {
+    
+    .navbar{
+        width: 100%;
+        overflow: hidden;
+    }
+    .bksnavbar{
+        font-size: 8px;
+        text-align: center;
+        display: flex;
+        height: 7vh;
+    }
+    .bksisi{
+        display: flex;
+        overflow-y: scroll;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+    
+    .tiktok{
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .name{
+        font-size: 10px;
+    }
+    .link{
+        font-size: 12px;
+    }
+    .ttlogo{
+        width: 80%;
+        height: 32vh;
+    }
+    .ttlogo img{
+        width: 100%;
+        height: 100%;
+    }
+    .intagram{
+        width: 100%;
+        height: 60vh;
+    }
+    .iglogo{
+        width: 80%;
+        height: 32vh;
+    }
+    .iglogo img{
+        width: 100%;
+        height: 100%;
+    }
+    .nameig{
+        font-size: 10px;
+    }
+    .linkig{
+        font-size: 12px;
+    }
+}

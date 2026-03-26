@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(360deg, white,red);
+}
+.title{
+    width: 100%;
+    height: 6vh;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.hob{
+    width: 100%;
+    height: 94%;
+    display: flex;
+    justify-content: center;
+}
+.futsal{
+    width: 37%;
+    height: 94vh;
+}
+.coding{
+      width: 33%;
+    height: 94vh;
+}
+.color{
+      width: 37%;
+    height: 94vh;
+}
+.pic{
+    width: 100%;
+    height: 47vh;
+}
+.po{
+    width: 100%;
+    height: 100%;
+}
+.im{
+    width: 100%;
+    height: 47vh;
+}
+.futsal img{
+    width: 100%;
+    height: 47vh;
+    border-radius: 15px;
+}
+.tek{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.im img{
+     width: 100%;
+    height: 47vh;
+    border-radius: 15px;
+}
+.i{
+     width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.black{
+    width: 100%;
+    height: 31vh;
+}
+.white{
+    width: 100%;
+    height: 31vh;
+}
+.red{
+    width: 100%;
+    height: 31vh;
+}
+.bksblack{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.bkswhite{
+     width: 100%;
+    height: 80%;
+     display: flex;
+    justify-content: center;
+}
+.bksred{
+      width: 100%;
+    height: 80%;
+     display: flex;
+    justify-content: center;
+}
+.blackt{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.whitet{
+     width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.redt{
+     width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.circleb{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.circlew{
+     width: 40%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.circler{
+     width: 40%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    border: 2px solid yellow;
+}
+@media (max-width:500px) {
+    .title{
+        font-size: 25px;
+    }
+    .hob{
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+    .futsal{
+        width: 100%;
+        height: 40vh;
+        font-size: 15px;
+    }
+    .coding{
+        width: 100%;
+    }
+    .color{
+        width: 100%;
+        height: 40vh;
+        
+    }
+    .i{
+        color: black;
+    }
+    .circleb{
+        width: 55%;
+    }
+    .circlew{
+        width: 55%;
+    }
+    .circler{
+        width: 55%;
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+    }
+    .pic{
+        height: 30vh;
+    }
+    .im{
+        height: 30vh;
+    }
+    .im img{
+        width: 100%;
+        height: 100%;
+    }
+}
