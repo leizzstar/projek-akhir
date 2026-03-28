@@ -102,7 +102,7 @@
 }
 @media (max-width:500px) {
     .nav{
-        overflow-x: scroll;
+        overflow: hidden;
         overflow-y: hidden;
     }
     .navbar{

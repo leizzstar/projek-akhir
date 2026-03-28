@@ -7,14 +7,7 @@
     height: 100vh;
     background: linear-gradient(360deg, white,red);
 }
-.title{
-    width: 100%;
-    height: 6vh;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    color: white;
-}
+
 .hob{
     width: 100%;
     height: 94%;
@@ -143,8 +136,11 @@
     border: 2px solid yellow;
 }
 @media (max-width:500px) {
+    .tek h1{
+        font-size: 10px;
+    }
     .title{
-        font-size: 25px;
+        font-size: 23px;
     }
     .hob{
         flex-wrap: wrap;
@@ -154,7 +150,7 @@
     .futsal{
         width: 100%;
         height: 40vh;
-        font-size: 15px;
+        font-size: 12px;
     }
     .coding{
         width: 100%;
